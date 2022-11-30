@@ -1,0 +1,73 @@
+section#home{
+    height: calc(100vh - 155px) !important;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section#home h2#home-titulo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+    margin-top: 2%;
+
+    font-size: 45px;
+    font-weight: bold;
+}
+
+section#home section#trofeus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section#home section#brasil{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+section#home section#brasil img#cbf{
+    width: 10%;
+}
+
+section#home section#trofeus img.jules{
+    width: 40%;
+    transition: .2s;
+}
+
+section#home section#trofeus img.jules:hover{
+    width: 42%;
+}
+
+section#home section#trofeus img.trofeu-copa{
+    width: 50%;
+    transition: .2s;
+}
+
+section#home section#trofeus img.trofeu-copa:hover{
+    width: 52%;
+}
+
+@media screen and (max-width: 1000px){
+    section#home h2#home-titulo{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+    section#home section#brasil img#cbf{
+        margin: 5%;
+        width: 30%;
+    }
+
+    section#home section#trofeus{
+        margin: 10% 0;
+    }
+}

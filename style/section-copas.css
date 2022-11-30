@@ -1,0 +1,93 @@
+main section.copas{
+    display: flex;
+    border-bottom: 1px solid rgb(238, 255, 0);
+    padding: 30px 80px;
+}
+
+main section#copas h2{
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+main section p{
+    width: 50%;
+    margin: 5% 5%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+main section figure{
+    width: 30%;
+    margin: auto 15px;
+
+}
+
+main section figure figcaption{
+    width: 100%;
+    /* text-align: center; */
+}
+
+main section figure img{
+    width: 120%;
+    height: 20%;
+}
+
+div.estrela-campeao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    margin: 2% 0;
+}
+
+img.estrela{
+    margin: 0 10px;
+    width: 90%;
+    height: 10%;
+}
+
+@media screen and (max-width: 1000px){
+    main section.copas{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main section#copas h2{
+        width: 100%;
+        justify-content: center;
+    }
+
+    div.estrela-campeao{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    main section p{
+        width: 100%;
+    }
+
+    main section figure{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    main section figure figcaption{
+        width: 100%;
+        text-align: center;
+    }
+
+    main section figure img{
+        width: 100%;
+        text-align: center;
+    }
+
+}
